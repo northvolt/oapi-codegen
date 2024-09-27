@@ -21,9 +21,9 @@ import (
 
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
+	"github.com/northvolt/oapi-codegen/v2/examples/petstore-expanded/echo/api"
+	"github.com/northvolt/oapi-codegen/v2/examples/petstore-expanded/echo/api/models"
 	middleware "github.com/oapi-codegen/echo-middleware"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/echo/api"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/echo/api/models"
 	"github.com/oapi-codegen/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

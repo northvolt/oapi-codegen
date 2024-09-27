@@ -13,8 +13,8 @@ import (
 	"os"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/northvolt/oapi-codegen/v2/examples/petstore-expanded/chi/api"
 	middleware "github.com/oapi-codegen/nethttp-middleware"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/chi/api"
 )
 
 func main() {

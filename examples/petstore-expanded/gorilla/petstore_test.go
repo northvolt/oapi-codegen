@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
+	"github.com/northvolt/oapi-codegen/v2/examples/petstore-expanded/gorilla/api"
 	middleware "github.com/oapi-codegen/nethttp-middleware"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/gorilla/api"
 	"github.com/oapi-codegen/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
